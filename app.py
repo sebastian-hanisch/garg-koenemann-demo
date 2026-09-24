@@ -396,11 +396,11 @@ st.markdown(
 | **Nur die Menge zählt** | Das Ziel ist die maximale Lieferung; die Kosten sind beliebig. Mit einer Kostenzeile kommt man an einen Kompromiss - das Kostenminimum bei gegebener Menge braucht eine Suche über das Budget. |
 | **Eine Näherung genügt** | Die Güte ist bewiesen, aber nicht das Optimum; wer die exakte Lösung oder die Duale (Schattenpreise) braucht, nimmt das LP oder die **Column Generation** des Vorgängers. |
 | **Die Schritte sind billig** | Jeder Schritt braucht einen Dijkstra-Lauf je Gut; für die Größen hier gewinnt der LP-Löser trotzdem (Experiment). Das Verfahren lohnt, wo kein LP-Löser passt oder das LP nicht in den Speicher geht. |
-| **Die Kanten stehen fest** | Hier gibt es die Kanten; wer sie erst bauen muss, zahlt Fixkosten. **Ansatzpunkt:** Netzwerkdesign mit Fixkosten (gebaut: fixkosten-netzdesign-demo und benders-demo; danach Slope Scaling). |
+| **Die Kanten stehen fest** | Hier gibt es die Kanten; wer sie erst bauen muss, zahlt Fixkosten. **Ansatzpunkt:** Netzwerkdesign mit Fixkosten (gebaut: fixkosten-netzdesign-demo, benders-demo und slope-scaling-demo). |
 | **Keine Zeit** | Ein Fluss ist eine Momentaufnahme. **Ansatzpunkt:** Zeit-Raum-Netz in der Demo „leercontainer-demo“. |
 """
 )
-st.caption("Die Netzwerkfluss-Linie ist als Ganzes geplant: Edmonds-Karp, Dinic, Push-Relabel, Successive Shortest Paths, Cycle-Canceling, Cost Scaling, Mehrgüterfluss, Column Generation, Garg-Könemann (dieses Stück), Fixkosten-Netzwerkdesign (gebaut), Benders-Zerlegung (gebaut) und Slope Scaling - bisher sind die ersten elf gebaut.")
+st.caption("Die Netzwerkfluss-Linie ist als Ganzes geplant: Edmonds-Karp, Dinic, Push-Relabel, Successive Shortest Paths, Cycle-Canceling, Cost Scaling, Mehrgüterfluss, Column Generation, Garg-Könemann (dieses Stück), Fixkosten-Netzwerkdesign (gebaut), Benders-Zerlegung (gebaut) und Slope Scaling (gebaut) - bisher sind alle zwölf Stücke der Hauptlinie gebaut.")
 
 st.markdown("---")
 
