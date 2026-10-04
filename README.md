@@ -9,7 +9,7 @@ Volle Kanten werden dadurch lang und meiden sich selbst – der Fluss weicht aus
 Vehikel: das Distributionsnetz der Vorgänger-Demos (Standard, Seed 155), ein **Streckennetz** (Gitter mit Start-Ziel-Aufträgen) und zwei feste Lehrnetze (Preis-Wende, Frachtnetz mit Bruch); optional mit einer **Kostenzeile** (Budget).
 
 **Einordnung in die Reihe (die Kanten des Graphen):** Dieselben Packungszeilen wie im Master der Column Generation (gemeinsame Kapazität je Kante, Gut-Obergrenze je Werks- und Nachfragekante) und dasselbe Orakel (Dijkstra mit Kantenlänge = Zeilenlängen), aber ohne Duallösung: die Längen sind keine Schattenpreise, sondern eine Näherung davon, die sich aus dem Verhalten des Flusses ergibt.
-Das Ziel ist die **maximale Lieferung** (die Kosten zählen nur über die optionale Budgetzeile). Das Folgestück setzt an dieser Kostenzeile an: das **Netzwerkdesign mit Fixkosten** (Benders-Zerlegung, Slope Scaling). Bisher gebaut: alle zwölf Stücke der Hauptlinie.
+Das Ziel ist die **maximale Lieferung** (die Kosten zählen nur über die optionale Budgetzeile). Das Folgestück setzt an dieser Kostenzeile an: das **Netzwerkdesign mit Fixkosten** (Benders-Zerlegung, Slope Scaling). Bisher gebaut: alle dreizehn Stücke der Hauptlinie.
 ```
 edmonds-karp-demo (Wurzel: Restgraph, Rückkanten, Max-Flow = Min-Cut)                  [gebaut]
   ├─ dinic-demo (viele kürzeste Wege je Phase: Niveaugraph, blockierender Fluss)        [gebaut]
