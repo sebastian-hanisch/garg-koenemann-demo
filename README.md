@@ -1,6 +1,6 @@
 # Garg–Könemann – Näherung ohne LP-Löser – Streamlit-Demo
 
-*(noch nicht deployed)*
+**[→ Demo live ausprobieren](https://sebastianhanisch-garg-koenemann-demo.streamlit.app/)**
 
 Neuntes Stück der **Netzwerkfluss-Linie** der "Konzepte"-Reihe für die Website "Sebastian Hanisch – Operations Research und Machine Learning", drittes im Mehrgüter-Ast, Kontrast zur [Column Generation](https://github.com/sebastian-hanisch/mcf-column-generation-demo):
 anders als die Fall-Demos im Portfolio (ein Anwendungsfall, mehrere Verfahren im Vergleich) zeigt diese Demo **ein** Verfahren – **Garg–Könemann** (mit der Variante von **Fleischer**) für den Mehrgüterfluss – an einem wachsenden Beispiel.
