@@ -86,7 +86,7 @@ def test_budget_table():
 
 
 def test_size_table():
-    """Volle Gitter mit fünf Gütern (Fleischer, ε = 0,3, 4 feste Netze je Größe): Zeilen 72 / 174 / 218 / 354 / 598, Schritte etwa 390 auf 980, Aufrufe etwa 620 auf 1 330 - 20- bis 30-mal die Aufrufe der Column Generation
+    """Volle Gitter mit fünf Gütern (Fleischer, ε = 0,3, 4 feste Netze je Größe): Zeilen 72 / 174 / 218 / 354 / 598, Schritte etwa 390 auf 980, Aufrufe etwa 620 auf 1 330 - 6- bis 24-mal die Aufrufe der Column Generation
     (etwa 26 bis 205); Güte etwa 95 bis 97 %; in Sekunden etwa 10- bis 19-mal langsamer als HiGHS auf dem Kanten-LP."""
     rows = ev.size_table()
     assert [r["rows"] for r in rows] == [72, 174, 218, 354, 598]

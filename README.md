@@ -105,3 +105,7 @@ venv\Scripts\python -m pytest tests -v
 
 Ein Lauf dauert einige Minuten (Verteilungen und Experimente). Schritte und Aufrufe hängen nicht von einem LP-Löser ab; Anteile und Mittel stehen mit Bändern, weil Gleitkomma-Summen auf anderen Plattformen um einen Schritt abweichen können.
 Die CI (`.github/workflows/tests.yml`) läuft auf Ubuntu mit Python 3.12, bei jedem Push und wöchentlich mit den jeweils neuesten Bibliotheksversionen.
+
+---
+
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Netzwerkfluss: vom Max-Flow zum Netzdesign](https://sebastianhanisch.net/konzepte-netzwerkfluss.html).
